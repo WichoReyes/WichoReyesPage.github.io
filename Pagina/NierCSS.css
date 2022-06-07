@@ -1,0 +1,117 @@
+
+body{
+    background-image: url(img/EmilPatron.jpg);
+    background-size:auto;
+}
+.img{
+    border-top-right-radius: 5cm;
+    border-bottom-right-radius: 5cm; 
+    filter: blur(5px);
+}
+.divReplicant{
+    background-color: whitesmoke;
+}
+.img2{
+    border-top-left-radius: 5cm;
+    border-bottom-left-radius: 5cm; 
+    filter: blur(5px);
+    
+}
+.whitebox{
+    background-color: #E5E5E5;
+    height: 100%;
+    width: 70%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whitebox2{
+    background-image: linear-gradient(black,#E5E5E5);
+    background-color: #E5E5E5;
+    height: 10px;
+    width: 70%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whiteInicio{
+    background-color: #E5E5E5;
+    height: 600px;
+    width: 500px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whitelogin{
+    background-color: #E5E5E5;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1 {
+    background-color: #E5E5E5;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+  }
+.button1:hover{
+    background-color: black;
+    color:#E5E5E5;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+}
+
+#galeria .col-md-6 {
+    margin: 0 !important;
+    padding:30px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 5px solid #E5E5E5
+}
+
+address{
+    background-color: #E5E5E5;
+    color:black; 
+}
+
+div1{
+    position: relative;
+    top: -400px; left: 800px;
+}
+div2{
+    position: relative;
+    top:-300px; left: 150px;
+}
+div3{
+    color: #33AB00;
+}
+
+#indice{
+    color: #E5E5E5;
+}
+#indice>aside{
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+table,th,td{
+    border: 4px solid  black;
+    border-style: double;
+    background-color: #E5E5E5;
+}
+@media only screen and (max-width: 700px){
+    body{
+        background-image: none;
+        background-color: brown;
+    }
+}
